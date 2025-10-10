@@ -32,7 +32,7 @@ const Step4 = () => {
       setError(null);
 
       // First initialize session with the backend
-      const sessionResponse = await fetch(`${import.meta.env.VITE_BASE_URL}/api/v2/dashboard/merchant/onsite/initiate`, {
+      const sessionResponse = await fetch("https://daa287e0559a.ngrok-free.app/api/v2/dashboard/merchant/onsite/initiate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
