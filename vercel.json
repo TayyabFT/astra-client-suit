@@ -1,5 +1,8 @@
-{
+{ 
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    { "source": "/mobile-kyc/:path*", "destination": "/index.html" },
+    { "source": "/kyc-qr/:path*", "destination": "/index.html" },
+    { "source": "/kyc-standalone/:path*", "destination": "/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
