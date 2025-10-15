@@ -32,7 +32,7 @@ const Step4 = () => {
       setError(null);
 
       // First initialize session with the backend
-      const sessionResponse = await fetch("https://f7444f46225e.ngrok-free.app/api/v2/dashboard/merchant/onsite/initiate", {
+      const sessionResponse = await fetch("https://backenddevmain.astraprotocol.com/api/v2/dashboard/merchant/onsite/initiate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
